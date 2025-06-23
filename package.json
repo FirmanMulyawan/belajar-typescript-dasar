@@ -4,13 +4,20 @@
   "description": "Belajar Typescript Dasar",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
   },
   "author": "Firman Mulyawan",
   "license": "ISC",
   "type": "module",
   "devDependencies": {
+    "@babel/preset-env": "^7.27.2",
     "@types/jest": "^30.0.0",
+    "babel-jest": "^30.0.2",
     "jest": "^30.0.2"
   }
 }
