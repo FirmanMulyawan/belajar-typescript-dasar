@@ -1,0 +1,16 @@
+{
+  "name": "belajar-typescript-dasar",
+  "version": "1.0.0",
+  "description": "Belajar Typescript Dasar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Firman Mulyawan",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.0.2"
+  }
+}
