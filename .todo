@@ -1,0 +1,23 @@
+1:52
+npm init
+npm install --save-dev jest @types/jest
+npm install --save-dev babel-jest @babel/preset-env
+npm install --save-dev typescript
+npx tsc --init
+npm install --save-dev @babel/preset-typescript 
+npm install --save-dev ts-jest
+npm install --save-dev @jest/globals
+
+// test
+- type-data
+- array
+- any
+- union
+- type alias (src)
+- object type
+- optional properties [ditandai dengan ?](ada di alias contohnya 'description') tidak ada test.ts
+- enum
+- optional
+- interface
+- readonly properties (ada di interface)
+- extending interface (ada di src dan interface.test.ts)
